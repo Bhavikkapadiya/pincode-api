@@ -29,6 +29,8 @@ const server = new ApolloServer({
   },
 });
 
+console.log('Hello');
+
 server.start().then(async () => {
   app.use(
     "/gql",
